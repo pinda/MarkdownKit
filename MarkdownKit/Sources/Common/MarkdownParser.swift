@@ -57,9 +57,9 @@ open class MarkdownParser {
   public let code: MarkdownCode
   
   // MARK: Escaping Elements
-  fileprivate var codeEscaping = MarkdownCodeEscaping()
-  fileprivate var escaping = MarkdownEscaping()
-  fileprivate var unescaping = MarkdownUnescaping()
+  open var codeEscaping = MarkdownCodeEscaping()
+  open var escaping = MarkdownEscaping()
+  open var unescaping = MarkdownUnescaping()
   
   // MARK: Configuration
   /// Enables individual Markdown elements and automatic link detection
