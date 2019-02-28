@@ -40,9 +40,9 @@ open class MarkdownParser {
   }
 
   // MARK: Element Arrays
-  fileprivate var escapingElements: [MarkdownElement]
+  open var escapingElements: [MarkdownElement]
   fileprivate var defaultElements: [MarkdownElement] = []
-  fileprivate var unescapingElements: [MarkdownElement]
+  open var unescapingElements: [MarkdownElement]
   
   open var customElements: [MarkdownElement]
   
